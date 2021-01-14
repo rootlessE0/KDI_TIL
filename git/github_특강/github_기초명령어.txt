@@ -1,0 +1,56 @@
+*왜 기업들이 음성데이터를 모으려고 하지?(ai스피커)
+- 새로운 인터페이스에 대한 대안이다. 
+* 2018구글 io -->헤어샵 예약, 윤리 이슈(로봇인지 모르는데?)
+* 2019구글 
+-->io 랜터카 예약, 예약정보가 있으면 자동 예약 가능
+-->구글 랜즈, 문맹률이 높은 제 3국이 사진으로 언어 검색
+-->개인화된 ai 제공
+-->teachable machine(영상 음성 머신러닝)
+- YOLO 프로젝트: 오브젝트 디텍터, 사물인식(체온측정, cctv,nfl...)
+*테슬라 자율주행
+-ai윤리성에 대한 이슈?
+*auto draw
+*api 
+*git: 분산 버전 관리시스템
+
+* git 버전관리 필수 명령어 정리
+폴더 생성후 우클릭>git bash here
+.git(숨김해제시 나오는 폴더)>>소스코드와 관련된 폴더
+touch b.txt >>빈 텍스트파일 생성
+mkdir >> 폴더생성 make directory 파일구조 만든다
+ls >> 리스트, 지금 보는 파일 목록. 내가 지금 명령어를 어디서 보고있는지 확인하는 연습하기
+cd>> 폴더로 넘어가기, change directory 
+git init >> 여길 git으로 사용하겠다. 사용시 깃 폴더 만들어짐
+최초 한번. 초기화, 저장할 공간을 만든다. 마스터표시 생김
+git status >>상태보기 명령어
+git add . >> 커밋할 목록에 추가
+git commit -m '메시지' >> 커밋(버전저장) 버전남기는 사람 기록 메시지 나옴
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git log >> commit한 내역 보기
+
+*git은 저장공간을 총 3가지로 구분
+wd(워킹 디렉토리, 작업공간) 내가 파일을 만들면 어떤 작업을 하는지 주기적으로 통합
+add명령을 통해 2번째 공간에 담음
+commit명령을 통해 버전 1이 생성된다.
+
+* 작업흐름
+1)작업을 한다(소스코드작성)
+2)이걸 버전으로 만들고싶으면 add를 통해 버전에 해당하는 파일을 추가한다
+3)commit을 통해 버전을 확정짓는다
+
+working tree --> 워킹 디렉토리 내에 있는거
+
+
+1)git init > .git 폴더 생성됨
+2)touch intro.txt(개발) --> WD에 존재, git status시 빨간 글씨
+3)git add 파일명 --> staging area로 파일 옮겨짐(트래킹), git status시 초록 글씨
+4)git commit -m '인트로' --> 커밋 영역으로 파일 옮겨짐. '인트로'라는 새로운 버전이 생성됨. 
+
+*git log vs git status: 
+git status: WD와 SA에 있는 것의 상태만 보임.
+git commit: commit 공간에 있는 버전의 내역만 보임
+
+*md>>마크다운
+*타이포라로 작성가능
+
